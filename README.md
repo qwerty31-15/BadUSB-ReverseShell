@@ -32,7 +32,7 @@ Arduino IDE with Keyboard.h library
 **🛠️ Setup Instructions**
 
 1️⃣ Configure Apache2 Server
-Place reverse_shell.bat and reverse_shell.sh in ```/var/www/html/```: ```
+Place reverse_shell.bat and reverse_shell.sh in /var/www/html/: ```
 sudo cp reverse_shell /var/www/html/ 
 sudo service apache2 start``` 
 Ensure files are accessible: http://YOUR_SERVER_IP/reverse_shell.bat http://YOUR_SERVER_IP/reverse_shell.sh 
