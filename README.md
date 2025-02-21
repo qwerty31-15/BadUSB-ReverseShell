@@ -13,8 +13,11 @@ A BadUSB project leveraging an Arduino to deploy reverse shell payloads on Windo
 
 badusb-reverse-shell/ 
 ├── arduino_badusb_script.ino # Arduino code for BadUSB attack 
+
 ├── reverse_shell.bat # Windows reverse shell payload 
+
 ├── reverse_shell.sh # Linux reverse shell payload 
+
 └── README.md # You're here! 
 
 ⚙️ Prerequisites
