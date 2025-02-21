@@ -3,13 +3,9 @@
 A BadUSB project leveraging an Arduino to deploy reverse shell payloads on Windows and Linux targets. The Arduino emulates a keyboard, downloads malicious scripts from an Apache2 server, and executes them to establish a reverse shell connection back to your listener.
 
 🚀 Features
-
 🖥️ Cross-Platform – Supports both Windows (reverse_shell.bat) and Linux (reverse_shell.sh).
-
 ⚡️ Plug & Pwn – Just plug in the Arduino and let it do the rest.
-
 🕵️ Stealth Mode – Runs commands in hidden windows on Windows and silently on Linux.
-
 🔄 Persistent Reconnection – Linux reverse shell attempts reconnection every 5 seconds if disconnected.
 
 📂 Project Structure
