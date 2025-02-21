@@ -41,7 +41,7 @@ Ensure files are accessible: http://YOUR_SERVER_IP/reverse_shell.bat http://YOUR
 Replace CHANGE_ME in the Arduino script with your Apache2 server's IP address.
 
 3️⃣ Flash the Arduino
-Open arduino_badusb_script.ino in Arduino IDE.
+Open BadArduino.ino in Arduino IDE.
 Select the correct Board and Port.
 Upload the script.
 
