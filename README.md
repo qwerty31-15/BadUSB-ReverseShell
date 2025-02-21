@@ -1,4 +1,5 @@
 ⚡️ BadUSB Reverse Shell Attack
+
 A BadUSB project leveraging an Arduino to deploy reverse shell payloads on Windows and Linux targets. The Arduino emulates a keyboard, downloads malicious scripts from an Apache2 server, and executes them to establish a reverse shell connection back to your listener.
 
 🚀 Features
@@ -49,12 +50,16 @@ Arduino emulates keystrokes to open PowerShell or Terminal.
 Downloads reverse_shell.bat (Windows) or reverse_shell.sh (Linux) from your Apache2 server.
 Executes the downloaded script.
 A reverse shell is established to the attacker’s machine on port 4444.
+
 🔒 Disclaimer
+
 ⚠️ Educational Purposes Only!
 This project is intended for ethical hacking and security research. Unauthorized use against systems you do not own or have explicit permission to test is illegal.
 
 🤝 Contributing
 Pull requests are welcome! Feel free to fork the repo and improve it.
+
 📜 License
 This project is open-source under the MIT License.
+
 🔥 Happy Hacking! 🚀
