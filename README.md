@@ -8,7 +8,9 @@ A BadUSB project leveraging an Arduino to deploy reverse shell payloads on Windo
 🕵️ Stealth Mode – Runs commands in hidden windows on Windows and silently on Linux.
 🔄 Persistent Reconnection – Linux reverse shell attempts reconnection every 5 seconds if disconnected.
 
+
 📂 Project Structure
+
 badusb-reverse-shell/ 
 ├── arduino_badusb_script.ino # Arduino code for BadUSB attack 
 ├── reverse_shell.bat # Windows reverse shell payload 
